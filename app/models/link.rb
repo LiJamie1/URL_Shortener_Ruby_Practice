@@ -8,5 +8,4 @@ class Link < ApplicationRecord
   def short
     Rails.application.routes.url_helpers.short_url(slug: self.slug)
   end
-  
 end
